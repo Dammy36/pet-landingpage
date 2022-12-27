@@ -1,0 +1,304 @@
+:root {
+    --branding-color: #6C63FF;
+    --heading-font-family: 'Playfair Display',
+        serif;
+    --default-font-family: 'Poppins',
+        sans-serif;
+    --secondry-color: rgb(247, 235, 235);
+    --primary-color: #272142;
+}
+
+.dark-theme {
+    background-color: #333333;
+    color: #999;
+    --branding-color: #fff;
+}
+
+body {
+    background-color: var(--secondry-color);
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+
+.sub {
+
+    padding: 0;
+    margin: 0;
+    ;
+
+
+}
+
+nav {
+    padding: 40px;
+    margin-bottom: 100px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+
+}
+
+nav li {
+    display: inline;
+    margin: 10px 20px;
+    list-style: none;
+    margin-left: 15px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: blueviolet;
+
+}
+
+nav a:hover {
+    color: var(--primary-color);
+}
+
+
+
+
+.fun {
+    position: absolute;
+    right: 40px;
+    width: 200px;
+    height: 130px;
+
+    margin-bottom: 70px;
+}
+
+
+div .toggle-btn {
+    background: #4864ff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.fa-solid {
+    width: 25px;
+    margin: 5px;
+}
+
+
+
+
+
+.option {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 65px;
+    line-height: 1.5;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+
+
+}
+
+h5 {
+    font-family: var(--default-font-family);
+}
+
+h3 {
+    color: rgb(223, 26, 59);
+    text-align: center;
+    margin: 15px;
+    font-size: 50px;
+    line-height: 38px;
+
+}
+
+.logo {
+
+    text-align: center;
+}
+
+div {
+    font-family: normal;
+}
+
+p {
+    font-family: var(--default-font-family);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0;
+}
+
+
+
+
+
+
+.click a {
+    margin: 30px;
+}
+
+.btn-branding {
+    background-color: orange;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 60px;
+    font-size: 14px;
+}
+
+.price {
+    background-color: bisque;
+    border-radius: 50px;
+    color: rgb(82, 78, 78);
+    padding: 15px 60px;
+    font-size: 14px;
+
+}
+
+.content {
+    text-align: center;
+    margin-top: 60px;
+    font-family: var(--heading-font-family);
+    margin-bottom: 150px;
+}
+
+.project-links {
+    background-color: rgb(223, 135, 28);
+    border-radius: 50px;
+    color: white;
+    padding: 10px 15px;
+    line-height: 20px;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.section {
+    color: rgb(49, 65, 65);
+    font-size: 40px;
+    display: inline;
+    text-align: center;
+    list-style: none;
+    padding: 20px 0;
+    margin: 15px;
+
+}
+
+
+.Vaccination {
+    display: inline;
+    margin: 15px;
+    box-shadow: 5px 10px 20px;
+    border: 1px solid;
+    font-size: 24px;
+    line-height: 38px;
+
+    color: var(--branding-color)
+}
+
+.pet-Groomimg {
+    display: inline;
+    margin: 15px;
+    box-shadow: 5px 10px 20px;
+    border: 1px solid;
+    font-size: 24px;
+    line-height: 38px;
+    color: var(--branding-color)
+}
+
+.Vaterinary {
+    display: inline;
+    margin: 15px;
+    box-shadow: 5px 10px 20px;
+    border: 1px solid;
+    font-size: 24px;
+    line-height: 38px;
+    color: var(--branding-color)
+}
+
+.Teeth-cleaning {
+    display: inline;
+    margin: 15px;
+    box-shadow: 5px 10px 20px;
+    border: 1px solid;
+    font-size: 24px;
+    line-height: 38px;
+    color: var(--branding-color)
+}
+
+.dammy {
+    text-align: center;
+
+}
+
+@media(max-width:960px) {
+    h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+
+
+    h3 {
+        font-size: 40px;
+    }
+
+    nav {
+        text-align: center;
+        margin: 0;
+
+    }
+
+    nav ul {
+        padding: 0;
+        text-align: center;
+
+    }
+
+    nav a {
+        font-size: 8px;
+        margin: 2px;
+    }
+
+    .sub {
+        font-size: 8px;
+        margin-top: 11px;
+    }
+
+    .section {
+        margin: 5px;
+        font-size: 20px;
+
+
+    }
+
+    .Vaccination {
+        font-size: 10px;
+    }
+
+    .pet-Groomimg {
+        font-size: 10px;
+    }
+
+    .Vaterinary {
+        font-size: 10px;
+    }
+
+    .Teeth-cleaning {
+        font-size: 10px;
+    }
+
+    .dammy {
+        font-size: 10px;
+    }
+}
