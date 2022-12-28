@@ -25,21 +25,19 @@ body {
 
 
 .sub {
-
-    padding: 0;
-    margin: 0;
-    ;
-
+padding: 0 50px;  
+    
 
 }
 
 nav {
     padding: 40px;
     margin-bottom: 100px;
+    
 }
 
 nav ul {
-    padding: 0;
+    padding: 0 25px; 
     margin: 0;
 
 }
@@ -255,24 +253,20 @@ p {
 
     nav {
         text-align: center;
-        margin: 0;
+        padding: 10px;
+        margin: 20px;
 
-    }
+    }    
 
     nav ul {
-        padding: 0;
-        text-align: center;
-
-    }
-
-    nav a {
-        font-size: 10px;
-        margin: 2px;
+        font-size: 12px;
+        padding: 0px 5px;
+        margin: 0;
     }
 
     .sub {
-        font-size: 10px;
-        margin-top: 11px;
+        font-size: 12px;
+        padding: 0 15px;
     }
 
     .section {
