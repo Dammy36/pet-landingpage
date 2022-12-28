@@ -266,12 +266,12 @@ p {
     }
 
     nav a {
-        font-size: 8px;
+        font-size: 10px;
         margin: 2px;
     }
 
     .sub {
-        font-size: 8px;
+        font-size: 10px;
         margin-top: 11px;
     }
 
@@ -283,22 +283,22 @@ p {
     }
 
     .Vaccination {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .pet-Groomimg {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .Vaterinary {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .Teeth-cleaning {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .dammy {
-        font-size: 10px;
+        font-size: 12px;
     }
 }
